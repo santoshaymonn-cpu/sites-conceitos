@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Um arquivo de ideias, conceitos e reflexões aprendidos no canal O Intervalo.">
+
+    <title>Conceitos — O Intervalo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="conceitos.css">
+    <script src="conceitos.js" defer></script>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <a href="index.html" class="brand">
+            <span class="brand-symbol">O.</span>
+            <span class="brand-name">O Intervalo</span>
+        </a>
+
+        <nav class="navigation" aria-label="Navegação principal">
+            <a href="index.html">Início</a>
+            <a href="#arquivo" class="active">Conceitos</a>
+            <a href="#sobre">Sobre</a>
+            <a
+                href="https://www.youtube.com/@zGhostzz"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                YouTube ↗
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <span class="eyebrow">ARQUIVO DE IDEIAS · Nº 001</span>
+
+                <h1>
+                    Pensar é também<br>
+                    <em>aprender a ver.</em>
+                </h1>
+
+                <p class="hero-description">
+                    Um espaço para reunir conceitos, organizar ideias
+                    e revisitar aquilo que merece permanecer depois
+                    que o vídeo termina.
+                </p>
+
+                <a href="#arquivo" class="text-link">
+                    Explorar o arquivo <span>↓</span>
+                </a>
+            </div>
+
+            <div class="hero-art" aria-hidden="true">
+                <div class="art-circle"></div>
+                <div class="art-line"></div>
+                <span class="art-number">01</span>
+                <span class="art-caption">O pensamento<br>começa na pausa.</span>
+            </div>
+        </section>
+
+        <section class="quote-section">
+            <span class="quote-mark">“</span>
+            <blockquote>
+                Nem toda ideia precisa de uma resposta imediata.
+                Algumas precisam de tempo.
+            </blockquote>
+            <span class="quote-credit">UMA NOTA SOBRE O PENSAMENTO</span>
+        </section>
+
+        <section class="archive-section" id="arquivo">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">COLEÇÃO · 001—012</span>
+                    <h2>Arquivo de conceitos</h2>
+                </div>
+
+                <span class="concept-count" id="concept-count">
+                    12 conceitos
+                </span>
+            </div>
+
+            <div class="search-area">
+                <label for="search-input" class="sr-only">
+                    Buscar conceitos
+                </label>
+
+                <span class="search-icon" aria-hidden="true">⌕</span>
+
+                <input
+                    type="search"
+                    id="search-input"
+                    placeholder="Buscar uma ideia, palavra ou reflexão..."
+                    autocomplete="off"
+                >
+
+                <kbd>/</kbd>
+            </div>
+
+            <div class="filters" aria-label="Filtrar por categoria">
+                <button class="filter-button active" data-category="Todos">
+                    Todos
+                </button>
+
+                <button class="filter-button" data-category="A mente">
+                    A mente
+                </button>
+
+                <button class="filter-button" data-category="Existência">
+                    Existência
+                </button>
+
+                <button class="filter-button" data-category="Sociedade">
+                    Sociedade
+                </button>
+
+                <button class="filter-button" data-category="Conhecimento">
+                    Conhecimento
+                </button>
+            </div>
+
+            <div class="concept-grid" id="concept-grid">
+                <!-- Os conceitos são inseridos pelo JavaScript. -->
+            </div>
+
+            <div class="empty-state" id="empty-state" hidden>
+                <span class="empty-symbol">∅</span>
+                <h3>Nenhuma ideia encontrada.</h3>
+                <p>
+                    Tente outra palavra ou escolha uma categoria diferente.
+                </p>
+                <button id="clear-search" class="text-link">
+                    Limpar pesquisa ↗
+                </button>
+            </div>
+        </section>
+
+        <section class="reflection-section">
+            <span class="eyebrow">UM CONVITE À PAUSA</span>
+
+            <h2>
+                O conhecimento não termina<br>
+                quando a leitura acaba.
+            </h2>
+
+            <p>
+                Uma ideia ganha profundidade quando deixa de ser
+                apenas informação e começa a transformar a maneira
+                como observamos o mundo.
+            </p>
+
+            <a href="https://www.youtube.com/@zGhostzz"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="outline-button">
+                Voltar ao canal <span>↗</span>
+            </a>
+        </section>
+    </main>
+
+    <footer class="site-footer" id="sobre">
+        <a href="index.html" class="footer-brand">O Intervalo.</a>
+
+        <p>Entre o ruído e o silêncio.</p>
+
+        <span class="footer-note">
+            Um arquivo em construção.
+        </span>
+
+        <span class="copyright">© 2026 O Intervalo</span>
+    </footer>
+
+</body>
+</html>
